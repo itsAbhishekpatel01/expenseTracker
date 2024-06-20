@@ -32,7 +32,7 @@ function App() {
     const lastItem = List[List.length - 1];
 
 
-    setTotal(total - parseInt(lastItem.price));
+    setTotal(total - (lastItem.price));
     setItemList(List.slice(0, -1));
   }
 
